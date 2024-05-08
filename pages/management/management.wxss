@@ -1,0 +1,14 @@
+/* pages/management/management.wxss */
+.allset{
+  font-size: 30rpx;
+  background-color: #dedee4;
+}
+.button-hover{
+  background-color: #b0b3b3;
+}
+.btn text{
+  font-size: 26rpx;
+}
+.warning text{
+  text-align:justify;
+}

@@ -1,0 +1,37 @@
+.icon{
+  height: 100rpx;
+  width: 150rpx;
+} 
+.icon text{
+  font-size: 60rpx;
+  width: 100%;
+}
+wx-slider .wx-slider-handle-wrapper{
+    height: 12rpx;
+    width: 60%;
+}
+.slider-light .wx-slider-track {
+  background: linear-gradient(to right, #424753 0%, #353838 100%);
+}
+page{
+  height: 100vh;
+  background-color: #ffffff;
+}
+.sliderChangeLT{
+  background-color: red;
+}
+.setled-b{
+  font-size: 25rpx;
+  background-color: #dedee4;
+}
+.setfan-b{
+  font-size: 25rpx;
+  background-color: #dedee4;
+}
+.setlt-b{
+  font-size: 25rpx;
+  background-color: #dedee4;
+}
+.button-hover{
+  background-color: #b0b3b3;
+}

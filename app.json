@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/View_Data/View_Data",
+    "pages/device_data/device_data",
+    "pages/management/management"
+  ],
+  "window": {
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#71c9ce",
+    "navigationBarTitleText": "智能焊台",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "backgroundColor": "#e3fdfd",
+    "list": [{
+      "pagePath": "pages/View_Data/View_Data",
+      "iconPath":"/assets/ck.png",
+      "selectedIconPath":"/assets/sck.png",
+      "text": "查看"
+  },{
+      "pagePath": "pages/device_data/device_data",
+      "iconPath":"/assets/data.png",
+      "selectedIconPath":"/assets/sdata.png",
+      "text": "数据"
+  },{
+    "pagePath": "pages/management/management",
+    "iconPath":"/assets/manage.png",
+    "selectedIconPath":"/assets/smanage.png",
+      "text": "管理"
+}]
+},
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

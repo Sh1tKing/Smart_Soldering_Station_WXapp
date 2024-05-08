@@ -1,0 +1,13 @@
+/* pages/device_data/device_data.wxss */
+ec-canvas{
+  width: 100%;
+  height: 100%;
+}
+.ts-chart{
+  width: 950rpx;
+  height: 700rpx;
+}
+.history-chart{
+  width: 650rpx;
+  height: 600rpx;
+}

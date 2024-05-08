@@ -1,0 +1,20 @@
+<!--pages/management/management.wxml-->
+<view class="warninginput">
+  <input bindblur="tempwarn" style="width: 492rpx; height: 84rpx; display: block; box-sizing: border-box; position: absolute; left: 258rpx; top: 225rpx" class="TempInput" name="TempWarning" value="{{Dtempwarn}}" placeholder="输入温度警报阈值(200~999℃)"/>
+  <input bindblur="smokewarn" style="width: 493rpx; height: 85rpx; display: block; box-sizing: border-box; position: absolute; left: 258rpx; top: 348rpx" class="TempInput" name="TempWarning" value="{{Dsmokewarn}}" placeholder="输入烟雾警报阈值(0~100ppm)"/>
+  <input bindblur="sleeptime" style="width: 453rpx; height: 85rpx; display: block; box-sizing: border-box; position: absolute; left: 258rpx; top: 468rpx" class="TempInput" name="TempWarning" value="{{Dsleeptime}}" placeholder="输入进入睡眠时间(0~60min)"/>
+  <input bindblur="loadtemp" style="width: 424rpx; height: 84rpx; display: block; box-sizing: border-box; position: absolute; left: 258rpx; top: 590rpx" class="TempInput" name="TempWarning" value="{{Dloadtemp}}"  placeholder="输入加载温度(200~600℃)"/>
+</view>
+<view class="btn">
+  <button class="tempset" bindtap="tempsetb" style="position: absolute; left: 42rpx; top: 226rpx; width: 200rpx; height: 78rpx; display: block; box-sizing: border-box">
+    <text>设置温度警报</text></button>
+  <button class="smokeset" bindtap="smokesetb" style="position: absolute; left: 42rpx; top: 348rpx; height: 78rpx; display: block; box-sizing: border-box; width: 200rpx">
+    <text>设置烟雾浓度</text></button>
+  <button class="sleepset" bindtap="sleepsetb" style="position: relative; left: -234rpx; top: 471rpx; width: 200rpx; height: 78rpx; display: block; box-sizing: border-box">
+    <text>设置休眠时间</text></button>
+  <button class="loadTset" bindtap="loadTsetb" style="position: absolute; left: 42rpx; top: 592rpx; width: 200rpx; height: 78rpx; display: block; box-sizing: border-box">
+    <text>设置加载温度</text></button>
+  <button class="allset" bindtap="allsetb" style="position: absolute; left: 192rpx; top: 714rpx; height: 78rpx; display: block; box-sizing: border-box">
+    <text>全部设置</text>
+  </button>
+</view>

@@ -1,0 +1,35 @@
+<view class="check" >
+  <text style="position: relative; left: 26rpx; top: 21rpx">Online:</text>
+    <image style="width: 40rpx; height: 40rpx; display: inline-block; box-sizing: border-box; left: 48rpx; top: 27rpx; position: relative" src="../../assets/{{onlinecheck}}.png"/>
+  
+</view>
+<view class="icon" style="font-size: 20rpx">
+  <view class="icon-a">
+    <image style="width: 132rpx; height: 132rpx; display: inline-block; box-sizing: border-box; position: relative; left: 75rpx; top: 114rpx" src="../../assets/temp.png" mode=""/>
+      <text style="position: relative; left: 344rpx; top: 0rpx; width: 466rpx; height: 132rpx; display: block; box-sizing: border-box" >{{temperature}}℃</text>
+      </view>
+  <view class="icon-b">
+    <image src="../../assets/bright.png" style="position: relative; left: 70rpx; top: 22rpx; width: 132rpx; height: 132rpx; display: inline-block; box-sizing: border-box"></image>
+    <text style="position: relative; left: 344rpx; top: -92rpx; width: 466rpx; height: 132rpx; display: block; box-sizing: border-box" >{{light}}%</text>
+  </view>
+  <view class="icon-c">
+    <image style="width: 114rpx; height: 108rpx; display: inline-block; box-sizing: border-box; position: relative; left: 75rpx; top: -51rpx" src="../../assets/fan.png" mode=""></image>
+    <text style="position: relative; left: 342rpx; top: -164rpx; width: 466rpx; height: 132rpx; display: block; box-sizing: border-box" >{{fanV}}%</text>
+  </view>
+  <view class="icon-d">
+    <image style="width: 130rpx; height: 132rpx; display: inline-block; box-sizing: border-box; position: relative; left: 75rpx; top: -132rpx" src="../../assets/smoke.png" mode=""></image>
+    <text style="position: relative; left: 346rpx; top: -244rpx; width: 466rpx; height: 132rpx; display: block; box-sizing: border-box" >{{smoke}}ppm</text>
+  </view>
+</view>
+<view class="sliderFan">
+  <slider bindchanging="sliderChangeFAN" bindchange="sliderSetFAN" min="0" max="100" value="{{sliderValue}}" style="position: relative; left: 340rpx; top: 690rpx; width: 551rpx; height: 43rpx; display: block; box-sizing: border-box"></slider>
+  <text style="position: relative; left: 22rpx; top: 628rpx">调节风扇转率：{{sliderFANPercent}}</text>
+</view>
+<view class="sliderLED" style="position: relative; left: 0rpx; top: 126rpx">
+  <slider bindchanging="sliderChangeLED" bindchange="sliderSetLED" min="0" max="100" value="{{sliderValue}}" style="position: relative; left: 340rpx; top: 536rpx; width: 542rpx; height: 43rpx; display: block; box-sizing: border-box"></slider>
+  <text style="position: relative; left: 22rpx; top: 475rpx">调节LED亮度：{{sliderLEDPercent}}</text>
+</view>
+<view class="sliderLT">
+  <slider bindchanging="sliderChangeLT" bindchange="sliderSetLT" min="200" max="600" value="{{sliderValue}}" style="position: relative; left: 340rpx; top: 628rpx; width: 551rpx; height: 43rpx; display: block; box-sizing: border-box" selected-color="red"></slider>
+  <text style="position: relative; left: 22rpx; top: 567rpx">调节烙铁温度：{{sliderLTValue}}℃</text>
+</view>
