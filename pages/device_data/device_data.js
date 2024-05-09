@@ -359,7 +359,7 @@ Page({
             smoke.push(res.data.data[2].value);
             time.push(hours+'.'+minutes+'.'+seconds);
             timer: setInterval(function () {
-            }, 1500)
+            }, 1000)
         this.init_chart(time,temperature,smoke);
        
       //  console.log("OneNET数据获取成功：", temperature); 

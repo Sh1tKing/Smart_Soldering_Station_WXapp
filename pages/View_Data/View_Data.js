@@ -106,7 +106,7 @@ Page({
             }
            that.fetchOnenetData(),
            that.fetchDeviceStatus()
-          },2000);
+          },500);
     },
     sliderSetFAN: function(e) {
       var value = Number(e.detail.value)+6000;

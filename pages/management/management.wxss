@@ -12,3 +12,7 @@
 .warning text{
   text-align:justify;
 }
+.version{
+  font-size: 30rpx;
+  width: 100%;
+}
