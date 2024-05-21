@@ -18,6 +18,3 @@
     <text>全部设置</text>
   </button>
 </view>
-<view class="version">
- <text style="position: relative; left: 558rpx; top: 966rpx">version: 1.3</text>
-</view>
