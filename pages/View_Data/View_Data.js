@@ -15,8 +15,8 @@ Page({
       sliderLTValue:200,
       device_name : "CSDN",
       product_id : "YqRZ5hrM6p",
-      start_time : "1713605269000",
-      end_time : "1716197269000",
+      start_time : "1714690223000",
+      end_time : "1717235023000",
       authInfo : "version=2022-05-01&res=products%2FYqRZ5hrM6p%2Fdevices%2FCSDN&et=2028715245&method=sha1&sign=hRokQQu7H7234O3arME%2F0hpIB2w%3D",
       setUrl: "https://iot-api.heclouds.com/thingmodel/set-device-property",  
       deviceStatusUrl: " ",  //在下方更改
@@ -70,12 +70,12 @@ Page({
           // 更新设备状态信息数据
           this.setData({
             deviceStatus: res.data,
-            onlinecheck:res.data.data.list[0].status//有数据
+            //onlinecheck:res.data.data.list[0].status//有数据
             //onlinecheck:1//无数据
           });
            // 打印获取到的设备属性值数据  
            //console.log(res.data.data.list[0].status);
-           //console.log("OneNET数据获取成功：",  res.data); 
+           console.log("OneNET数据获取成功：",  res.data); 
         },
         fail: (err) => {
           console.log("设备状态信息请求失败");

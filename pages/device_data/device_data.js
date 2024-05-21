@@ -249,8 +249,8 @@ Page({
     onlinecheck: 0,
     device_name : "CSDN",
     product_id : "YqRZ5hrM6p",
-    start_time : "1713605269000",
-    end_time : "1716197269000",
+    start_time : "1714690223000",
+    end_time : "1717235023000",
     authInfo : "version=2022-05-01&res=products%2FYqRZ5hrM6p%2Fdevices%2FCSDN&et=2028715245&method=sha1&sign=hRokQQu7H7234O3arME%2F0hpIB2w%3D",
     setUrl: "https://iot-api.heclouds.com/thingmodel/set-device-property",  
     deviceStatusUrl: " ",  //在下方更改
@@ -391,7 +391,7 @@ Page({
           onlinecheck: res.data.data.list[0].status //有数据
           //onlinecheck:1//无数据
         }); 
-        //console.log(res.data)
+        console.log(res.data);
         var l=res.data.data.list.length;
         var begin=-1;
         var end=-1;
