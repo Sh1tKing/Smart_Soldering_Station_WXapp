@@ -1,4 +1,5 @@
-var utils=require('../../utils/util')
+var utils=require('../../utils/util');
+var app=getApp();
 import * as echarts from '../../components/ec-canvas/echarts'
 // pages/device_data/device_data.js
 var mytime=new Date();

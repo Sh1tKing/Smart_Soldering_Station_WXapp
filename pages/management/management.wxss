@@ -3,14 +3,40 @@
   font-size: 30rpx;
   background-color: #dedee4;
 }
-.button-hover{
-  background-color: #b0b3b3;
+.Input{
+  width: 300rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+  border-bottom: 1px solid gray;
+  margin-top: 20px;
+}
+.tempset{
+  background-color: #dedee4;
+}
+.smokeset{
+  background-color: #dedee4;
+}
+.sleepset{
+  background-color: #dedee4;
+}
+.loadTset{
+  background-color: #dedee4;
 }
 .btn text{
   font-size: 26rpx;
 }
 .warning text{
   text-align:justify;
+}
+.button-hover{
+  background-color: #b0b3b3;
+}
+.line{
+  margin: 0 auto;
+  height: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #000000;
 }
 .version{
   font-size: 30rpx;
