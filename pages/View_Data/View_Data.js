@@ -170,38 +170,6 @@ Page({
         console.log("设备状态信息");
         console.log('完整响应：', res); // 打印完整响应  
         console.log('成功接收数据：', res.data); // 打印接收到的数据 
-        //console.log('成功接收数据：', res.data); // 打印接收到的数据
-      },
-      fail: (err) => {
-        console.log("设备状态信息请求失败");
-        console.log('请求失败：', err); // 打印错误信息
-      }
-    } 
-    });
-  },setOnenetData(ledValue) {
-    // 以下数据和URL应根据实际情况进行修改
-    const authInfo = this.data.authInfo;
-    const url = this.data.setUrl;
-    const product_id = this.data.product_id;
-    const device_name = this.data.device_name;
-    // 替换为用户的实际鉴权信息
-    wx.request({
-      url: url,
-      method: 'POST',
-      header: {
-        'Authorization': authInfo,
-      },
-      data: {
-        "product_id": product_id,
-        "device_name":device_name,
-        "params": {
-          "command": ledValue // 使用传入的ledValue
-      },
-      success: (res) =>{
-        console.log("设备状态信息");
-        console.log('完整响应：', res); // 打印完整响应  
-        console.log('成功接收数据：', res.data); // 打印接收到的数据 
-        console.log('成功接收数据：', res.data); // 打印接收到的数据
       },
       fail: (err) => {
         console.log("设备状态信息请求失败");

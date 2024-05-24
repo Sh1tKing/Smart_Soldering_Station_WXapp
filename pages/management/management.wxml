@@ -18,3 +18,7 @@
     <text>全部设置</text>
   </button>
 </view>
+<view>
+  <text style="position: relative; left: 225rpx; top: 813rpx">电源开关</text>
+  <switch checked="true" bindchange="" style="position: relative; left: 248rpx; top: 806rpx; width: 154rpx; height: 68rpx; display: inline-block; box-sizing: border-box"></switch>
+</view>
