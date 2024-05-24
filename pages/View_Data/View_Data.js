@@ -70,12 +70,12 @@ Page({
           // 更新设备状态信息数据
           this.setData({
             deviceStatus: res.data,
-            //onlinecheck:res.data.data.list[0].status//有数据
+            onlinecheck:res.data.data.list[0].status//有数据
             //onlinecheck:1//无数据
           });
            // 打印获取到的设备属性值数据  
            //console.log(res.data.data.list[0].status);
-           console.log("OneNET数据获取成功：",  res.data); 
+           //console.log("OneNET数据获取成功：",  res.data); 
         },
         fail: (err) => {
           console.log("设备状态信息请求失败");
